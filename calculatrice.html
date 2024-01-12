@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="answer-container"></div>
+    <div class="main-container">
+      <section class="link-section">
+        <a class="appear-link" href="">Faire apparaître la calculatrice</a>
+        <a class="disappear-link" href="">Faire disparaître la calculatrice</a>
+      </section>
+      <div class="form-container">
+        <form action="">
+          <input type="number" name="first-input" id="number-a" />
+          <select name="operator" id="operator">
+            <option value="addition">+</option>
+            <option value="soustraction">-</option>
+            <option value="multiplication">*</option>
+            <option value="division">/</option>
+          </select>
+          <input type="number" name="second-input" id="number-b" />
+          <button type="submit" id="submit">Ok</button>
+          <button class="reset" type="reset">Reset</button>
+        </form>
+        <p class="react-hover"></p>
+      </div>
+      <script src="/script.js"></script>
+    </div>
+  </body>
+</html>
